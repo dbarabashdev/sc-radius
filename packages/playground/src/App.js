@@ -1,7 +1,7 @@
 import React from "react"
 import logo from "./logo.svg"
 import "./App.css"
-import SCRadius from "sc-radius"
+import SCRadius from "@ui/sc-radius"
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <SCRadius />
+        <SCRadius>Hello SC</SCRadius>
       </header>
     </div>
   )
